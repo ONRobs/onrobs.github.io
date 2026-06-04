@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html>
-    <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
-    </ul>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="theme.js" defer></script>
+    </head>
     <body>
-        <h1>This is a Heading</h1>
-        <p>This is a paragraph.</p>
+        <header class="site-header">
+            <div class="site-header-inner">
+                <a class="brand brand-link" href="index.html">
+                    <img class="site-icon" src="./media/olivers.png" alt="Nedēļa studenta dzīvē icon">
+                    <div>
+                        <p class="site-title">Nedēļa studenta dzīvē</p>
+                    </div>
+                </a>
+                <div class="actions">
+                    <nav class="site-nav">
+                        <ul>
+                            <li><a href="index.html">Mājas</a></li>
+                            <li><a href="studijas.html">Studijas</a></li>
+                            <li><a href="darbs.html">Darbs</a></li>
+                            <li><a href="studentija.html">Studentija</a></li>
+                            <li><a href="paliglidzekli.html">Palīglīdzekļi</a></li>
+                            <li><a href="statistika.html">Statistika</a></li>
+                        </ul>
+                    </nav>
+                    <button class="nav-toggle" type="button" aria-label="Open navigation menu">☰</button>
+                    <button class="theme-toggle" type="button" aria-label="Toggle theme">🌙</button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="hero">
+                <img class="hero-image" src="./media/coffee.jpg" alt="Banner image for post">
+                <div class="hero-content">
+                    <h1 class="title">Viena darba nedēļa Datorikas nodaļas studenta dzīvē.</h1>
+                    <p class="description">Ieskats vienā manā darba nedēļā - kas man bijis jādara studijās, darbā, mana iesaiste studentu pašpārvaldē.</p>
+                    <a href="studijas.html" class="button">Sākt</a>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            <div class="container">Olivers Nils Robs, Diena studenta dzīvē, 2026 - <a href="index.html">Mājas</a></div>
+        </footer>
     </body>
 </html>
